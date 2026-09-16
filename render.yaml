@@ -3,5 +3,5 @@ services:
     name: teleweb
     plan: free
     runtime: python
-    buildCommand: pip install flask flask-socketio
+    buildCommand: pip install flask 
     startCommand: python main.py
